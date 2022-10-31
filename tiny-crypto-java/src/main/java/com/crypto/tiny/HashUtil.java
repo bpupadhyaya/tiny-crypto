@@ -94,4 +94,6 @@ public class HashUtil {
         String merkleRoot = (treeLayer.size() == 1) ? treeLayer.get(0) : "";
         return merkleRoot;
     }
+
+
 }
